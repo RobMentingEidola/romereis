@@ -1,0 +1,48 @@
+% Formele brief in het Italiaans met logo linksboven
+\documentclass[11pt,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[dutch,italian]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{broekhinBlue}{HTML}{1A4B8C}
+\usepackage[margin=25mm]{geometry}
+\usepackage{parskip}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+\end{center}
+
+% Header with logo on the top-left and school name/address/date on the right (huisstijl)
+\begin{minipage}[t]{0.35\textwidth}
+  \vspace{-8mm}
+  \includegraphics[width=0.95\textwidth]{logo.png}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.62\textwidth}
+  \raggedleft
+  {\color{broekhinBlue}\Large\textbf{Bisschoppelijk College Broekhin}}\\[2mm]
+  Bob Boumanstraat 30--32\\
+  6042 EH Roermond\\[4mm]
+  Roermond, 5 settembre 2026\\[6mm]
+\end{minipage}
+
+\vspace{6mm}
+\noindent\color{broekhinBlue}\rule{\textwidth}{1.4pt}\color{black}
+\vspace{8mm}
+
+Alla cortese attenzione del Signor / della Signora,\\[4mm]
+
+Con la presente desidero informarLa che un gruppo di 26 studenti del Collegio Episcopale Broekhin di Roermond, accompagnato da due docenti, effettuer\'a un viaggio di istruzione a Roma e dintorni da luned\'\i{} 26 ottobre a domenica 2 novembre 2026.\\[4mm]
+
+In considerazione delle finalit\`a culturali del viaggio, in qualit\`a di preside dell\'istituto, Le sarei grato/a se, nei limiti delle Sue possibilit\`a e nel rispetto della normativa vigente, vorr\'a cortesemente favorire il gruppo mettendo a disposizione biglietti gratuiti d\'ingresso ai musei e agli scavi.\\[6mm]
+
+In attesa di un Suo cortese riscontro, porgo distinti saluti.\\[24mm]
+
+\vspace{6mm}
+\noindent\makebox[0.6\textwidth]{\rule{0.6\textwidth}{0.4pt}}\\
+E.M. Engelen\\
+Preside del BC Broekhin\\[4mm]
+Bisschoppelijk College Broekhin\\
+Bob Boumanstraat 30--32, 6042 EH Roermond
+
+\end{document}
