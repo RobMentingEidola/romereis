@@ -1,6 +1,6 @@
-PWD C:\Users\Rob Menting\OneDrive\Documenten\romereis
+PWD c:\Users\Rob Menting\OneDrive\Documenten\romereis
 INPUT C:\Users\Rob Menting\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT reisgids_rome_a5.tex
+INPUT c:\Users\Rob Menting\OneDrive\Documenten\romereis\reisgids_rome_a5.tex
 OUTPUT reisgids_rome_a5.log
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
