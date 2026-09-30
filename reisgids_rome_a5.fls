@@ -1,6 +1,6 @@
-PWD c:\Users\Rob Menting\OneDrive\Documenten\romereis
+PWD C:\Users\Rob Menting\OneDrive\Documenten\romereis
 INPUT C:\Users\Rob Menting\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Rob Menting\OneDrive\Documenten\romereis\reisgids_rome_a5.tex
+INPUT reisgids_rome_a5.tex
 OUTPUT reisgids_rome_a5.log
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -150,7 +150,7 @@ INPUT .\logo.png
 INPUT .\logo.png
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
+INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss9.tfm
 INPUT .\kaartjeRome.jpg
 INPUT .\kaartjeRome.jpg
 INPUT .\kaartjeRome.jpg
@@ -162,6 +162,7 @@ INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso12.tfm
 INPUT C:\Users\Rob Menting\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
@@ -196,8 +197,8 @@ INPUT .\reisgids_rome_a5.out
 INPUT .\reisgids_rome_a5.out
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss10.pfb
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss10.pfb
-INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.pfb
-INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.pfb
+INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss9.pfb
+INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss9.pfb
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\Rob Menting\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
