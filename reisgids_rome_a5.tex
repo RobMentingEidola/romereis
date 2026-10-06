@@ -11,6 +11,7 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue}
+\usepackage{qrcode}
 \usepackage{enumitem}
 \setlist[itemize]{nosep,left=0pt,label=--}
 \usepackage{titlesec}
@@ -59,10 +60,24 @@ Geen al te grote koffers, geen ``harde'' koffers. Handbagage moet in het rek bov
 Bij aankomst in Rome stallen we onze bagage in het hotel. Daarna gaan we kennismaken met Rome. Gelukkig heb je goed geslapen, dus dat zal geen probleem zijn. In ieder geval bezoeken we meteen het verzamelpunt bij noodgevallen.
 
 \newpage
+\begingroup
+\catcode37=12
+\catcode35=12
+\catcode38=12
+\catcode95=12
+\noindent
+\begin{minipage}[t]{0.62\textwidth}
 \textbf{Verzamelpunt bij noodgevallen (in je telefoon zetten):}
 \begin{itemize}
   \item Thermen van Caracalla, Viale delle Terme di Caracalla 52, 00153 Roma (hoofdingang/kassa aan de Viale delle Terme di Caracalla)
 \end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.34\textwidth}
+\vspace{0pt}
+\raggedleft
+\qrcode[height=3.6cm,nolink]{https://www.google.com/maps/place/Viale+delle+Terme+di+Caracalla,+52,+00153+Roma+RM,+Itali%C3%AB/@41.8805532,12.4896772,17z/data=!4m6!3m5!1s0x132f61cf7c43e14b:0x831381bfc1933031!8m2!3d41.8806192!4d12.4922809!16s%2Fg%2F11gdj04_yj?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D}
+\end{minipage}
+\endgroup
 
 \section*{Programma}
 \textit{Het programma hieronder is een planning die wij op papier gemaakt hebben. Het kan, om allerlei redenen, gebeuren dat we ter plekke een planning aanpassen. In de avonden zijn we steeds op een andere plek in Rome: welke plek dat is, laten we afhangen van onder andere vermoeidheid en de beschikbaarheid van openbaar vervoer. We denken nu bijvoorbeeld aan de Pincio, Trastevere en de Trevifontein.}
@@ -97,15 +112,24 @@ Bij aankomst in Rome stallen we onze bagage in het hotel. Daarna gaan we kennism
   \item Middag: een ``inhaalmiddag'': wat willen we (als)nog zien?
 \end{itemize}
 
+\vspace{6mm}
+\noindent\begin{minipage}[t]{0.60\textwidth}
+\raggedright
+\vspace{0pt}
 \section*{Hotel}
-\noindent\begin{minipage}[c]{0.68\textwidth}
 Villa Benedetta Kloosteraccommodatie\\
 Via della Moletta 10
-\end{minipage}\hfill
-\raisebox{-0.5\height}{\includegraphics[width=3cm]{hotel_qr.png}}
 
+\vspace{4mm}
 \section*{Reisbureau}
-Authentic Italia: \url{https://www.authentic-italia.nl/}
+Authentic Italia:\\
+\url{https://www.authentic-italia.nl/}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\textwidth}
+\vspace{0pt}
+\raggedleft
+\includegraphics[width=\textwidth]{hotel_qr.png}
+\end{minipage}
 
 \section*{Begeleiders}
 \begin{center}
@@ -134,6 +158,10 @@ Ontbijt, openbaar vervoer en entrees zijn inbegrepen bij de reis. Het zakgeld is
 \section*{Groepsindeling}
 We zijn steeds met één groep en twee begeleiders, behalve tijdens de reis naar Pompeii of Ostia en tijdens het keuzeprogramma op vrijdagmiddag.
 
+\begingroup
+\small
+\setlength{\parskip}{2pt}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 \section*{Rechten en plichten}
 Zoals overal heb je rechten en plichten. Je hebt recht op een goede organisatie van de reis, binnen de grenzen van wat menselijkerwijs mogelijk is. De reis wordt inhoudelijk ook vakkundig en enthousiast geleid.
 
@@ -151,8 +179,11 @@ We hebben een annuleringsverzekering afgesloten voor de hele groep; deze verzeke
 
 En als je vast wat Italiaans wil leren: probeer de apps Memrise of Duolingo.
 
-\vfill
 \begin{center}
   \textit{Buon viaggio!}
 \end{center}
+\begin{center}
+  \includegraphics[width=0.95\textwidth,keepaspectratio]{woordwolk_broekhin.png}
+\end{center}
+\endgroup
 \end{document}
